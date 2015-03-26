@@ -13,9 +13,9 @@
   <body ng-app="todomvc">
     <section id="todoapp" ng-controller="TodoController">
       <header id="header">
-        <h1>todos</h1>
+        <h1>Whats your todo you want to find a help for?</h1>
         <form id="todo-form" ng-submit="addTodo()">
-          <input id="new-todo" placeholder="What needs to be done?" ng-model="newTodo" autofocus>
+          <input id="new-todo" placeholder="Build a startup / johnmayer@mail.com" ng-model="newTodo" autofocus>
         </form>
       </header>
       <section id="main" ng-show="todos.length" ng-cloak>
@@ -53,15 +53,8 @@
       </footer>
     </section>
     <footer id="info">
-      <p>Double-click to edit a todo</p>
-      <p>Credits:
-        <a href="http://twitter.com/cburgdorf">Christoph Burgdorf</a>,
-        <a href="http://ericbidelman.com">Eric Bidelman</a>,
-        <a href="http://jacobmumm.com">Jacob Mumm</a>,
-        <a href="http://igorminar.com">Igor Minar</a> and
-        <a href="http://twitter.com/passy">Pascal Hartig</a>
-      </p>
-      <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+      <h2>Whats your todo you want to find a help for?</h2>
+      <h3>e.g. Build a startup / johnmayer@mail.com</h3>
     </footer>
   </body>
 </html>
